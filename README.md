@@ -1,5 +1,3 @@
----
-
 # MedQ - Revolutionizing Healthcare with Real-Time Data
 
 ## Idea & Approach
@@ -102,5 +100,3 @@ Author: Gopalakrishna Palem
 - **"Impact of Bed Availability on Patient Care"**  
 Source: National Library of Medicine  
 [Link](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1089232/)
-
----
