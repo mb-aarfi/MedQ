@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        .nav{
+            /* margin-right: 50px; */
+            padding: 10px;
+            padding-right: 50px;
+            /* background-color: aqua; */
+            height: 5vh;
+            display: flex;
+            justify-content: right;
+            align-items: center;
+        }
+        .nav a{
+            text-decoration: none;
+        }
+        .logo{
+            position: absolute;
+            left: 108px;
+            font-size: 30px;
+            color:rgb(10, 145, 236);
+            font-family: sans-serif;
+            
+            font-weight: bolder;
+        }
+        .nav ul{
+            display: flex;
+            /* justify-content: right; */
+            align-items: center;
+            gap: 50px;
+            list-style-type: none;
+            font-size: 20px;
+            font-family: sans-serif;
+            cursor: pointer;
+            
+    
+        }
+        li {
+        display: inline-block; /* Ensures underline has space to animate smoothly */
+        position: relative; /* For positioning the pseudo-element */
+        cursor: pointer; /* Changes cursor to pointer on hover */
+    }
+    
+    li::after {
+        content: ''; 
+        position: absolute;
+        width: 100%;
+        height: 2px; /* Adjust the thickness of the underline */
+        background-color: currentColor; /* Matches the color of the text */
+        bottom: 0; /* Positions the line at the bottom */
+        left: 0;
+        transform: scaleX(0); /* Start with the line hidden */
+        transform-origin: bottom right; /* Start the line animation from the right */
+        transition: transform 0.4s cubic-bezier(0.25, 1, 0.5, 1); /* Smooth animation */
+    }
+    
+    li:hover::after {
+        transform: scaleX(1); /* Draws the line on hover */
+        transform-origin: bottom left; /* Draws the line from left to right */
+    }
+    
+        .container{
+            width: 100vw;
+            height: 75vh;
+            /* background-color: rgb(216, 51, 111); */
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .section1{
+            width: 40%;
+            height: 70%;
+            /* background-color: beige; */
+        }
+        .section2{
+            width: 40%;
+            height: 70%;
+            /* background-color: beige; */
+            display: flex;
+            justify-content: center;
+        }
+        h1{
+            font-size: 50px;
+            font-family: sans-serif;
+        }
+        p{
+            font-size: larger;
+            font-family: sans-serif;
+        }
+        span{
+            color: rgb(10, 145, 236);
+            /* font-weight:900; */
+            font-weight: bold;
+        }
+        .sphere{
+            width: 400px;
+            height: 400px;
+            background-color: #48BFF9;
+            display: flex;
+            justify-content: center;
+            border-radius: 700px;
+        }
+        button{
+            width:150px;
+            height: 35px;
+            border-radius: 15px;
+            border: 0;
+            background-color: rgb(28, 169, 201);
+            color: white;
+            font-size: 18px;
+            cursor: pointer;
+        }
+        .container2{
+            /* background-color: green; */
+            width: 100vw;
+            height: 35vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .box{
+            height: 30vh;
+            width: 65vw;
+            font-family: sans-serif;
+            border: 3px solid rgba(16, 215, 226, 0.386);
+            border-radius: 30px;
+            padding-left: 15px;
+            font-size: larger;
+            
+            
+        }
+        .div{
+            width: 100%;
+            height: 10vh;
+            /* background-color: green; */
+            display: flex;
+            align-items: center;
+            justify-content:space-around; 
+        }
+        table td{
+            width:15vw ;
+        }
+        input{
+            width:150px;
+            height: 30px;
+            border-radius: 10px;
+            border: 2px solid rgb(28, 169, 201);
+            /* background-color: ; */
+            /* margin: 3px; */
+            font-size: 18px;
+            cursor: pointer;
+        }
+        select{
+            width:150px;
+            height: 30px;
+            border-radius: 10px;
+            border: 2px solid rgb(28, 169, 201);
+            /* background-color: ; */
+            
+            font-size: 15px;
+            cursor: pointer;
+        }
+        .btn{
+            position: relative;
+            background-color: rgb(28, 169, 201);
+            color: white;
+            bottom: -7px;
+            width:150px;
+            height: 40px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="page">
+        <div class="nav">
+            <div class="logo">MedQ</div>
+            <ul>
+                <li><a href="{{ url_for('home') }}">Home</a></li>
+                <li><a href="{{ url_for('dashboard') }}">Dispensary</a></li>
+                <li><a href="#">Patient details</a></li>
+                <li><a href="#">Records</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Help</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <button class="Login"><a href="{{ url_for('login') }}">Login</a></button>
+            </ul>
+        </div>
+        <div class="container">
+            <div class="section1">
+                <h1>Meet the best <br><span>Hospital Treatment</span></h1>
+                <p>Welcome to <span>MedQ</span>, your one-stop solution for seamless healthcare <br>
+                    management. We offer easy <span>OPD registration, real-time hospital bed <br>
+                    availability</span>, and tools to <span>find the nearest hospitals</span>. Additionally, our <br>
+                    platform includes advanced inventory management to ensure efficient <br>
+                    medical resources allocation.
+                </p>
+                <br>
+                <button>Register Now</button>
+            </div>
+            <div class="section2">
+                <div class="sphere"><img src="{{ url_for('static', filename='images/doctor.png') }}" alt=""></div>
+            </div>
+        </div>
+        <div class="container2">
+            <div class="box">
+                <h2><span>Easily look for a patient in 3 simple steps.</span></h2>
+                <div class="div">
+                    <form action="" method="post">
+                        <table>
+                            <tr>
+                                <td><label for="hospital">Select Hospital:</label>
+                                    <br>
+                                    <select id="hospital" name="hospital" required>
+                                        <option value="" disabled selected>SELECT</option>
+                                        <option value="hospital1">Hospital 1</option>
+                                        <option value="hospital2">Hospital 2</option>
+                                    </select>
+                                </td>
+                                <td><label for="emailid">Email Id:</label>
+                                    <br>
+                                    <input type="email" id="emailid" name="emailid" required></td>
+                                <td><label for="pass">Password:</label>
+                                    <br>
+                                    <input type="password" id="pass" name="pass" required></td>
+                                <td colspan="3"><input class="btn" type="submit" value="Register"></td>
+                            </tr>
+                        </table>     
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
