@@ -100,3 +100,6 @@ Author: Gopalakrishna Palem
 - **"Impact of Bed Availability on Patient Care"**  
 Source: National Library of Medicine  
 [Link](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1089232/)
+![Team ID 8052](https://github.com/user-attachments/assets/0d2cd0ed-67b4-4901-9506-9dc75a962999)
+
+
