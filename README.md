@@ -1,5 +1,7 @@
 # MedQ - Revolutionizing Healthcare with Real-Time Data
 
+# Demo Link - https://www.youtube.com/watch?v=HKMfKFK1jOk
+
 ## Idea & Approach
 
 **MedQ** is a hospital-based app designed to bring healthcare services directly to users’ fingertips. Despite the presence of OPD registration platforms, they often lack real-time data integration, providing limited insights into bed availability and using inefficient queuing models.
