@@ -103,7 +103,12 @@ Author: Gopalakrishna Palem
 Source: National Library of Medicine  
 [Link](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1089232/)
 
-# Working Prototype SSs:
+## Working Prototype SSs:
 ![Team ID 8052](https://github.com/user-attachments/assets/0d2cd0ed-67b4-4901-9506-9dc75a962999)
 
+## Contact
+For queries or collaboration:
 
+📧 Muhammad Baqir – mohdbaqir110@gmail.com
+📧 Rishi Varshney – rishi.varshney100@gmail.com
+📧 Tushar Ranjan – tusharranjan151@mail.com
