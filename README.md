@@ -4,12 +4,12 @@
 
 ## Idea & Approach
 
-**MedQ** is a hospital-based app designed to bring healthcare services directly to users’ fingertips. Despite the presence of OPD registration platforms, they often lack real-time data integration, providing limited insights into bed availability and using inefficient queuing models.
+MedQ is a hospital-based healthcare solution developed as part of the Smart India Hackathon 2024 under Problem Statement ID: SIH1620. It provides a one-stop platform for real-time OPD registration, bed availability, and predictive healthcare logistics — all optimized with priority-based queuing and real-time hospital data.
 
-The MedQ app addresses these challenges by:
-- Implementing a priority-based queue system, prioritizing patients based on the severity of their conditions.
-- Providing real-time availability of OPD beds and timely updates, allowing users to choose hospitals based on bed count, distance, cost, and more.
-- Gathering real-time data from hospitals and updating it in the database, making this information easily accessible to users.
+Team Name: Hack Fuse
+Team ID: 8052
+Theme: MedTech / BioTech / HealthTech
+Category: Software
 
 ### Key Features:
 1. **Priority-Based Queuing System** - Prioritizes patients based on their medical condition's urgency.
@@ -109,6 +109,6 @@ Source: National Library of Medicine
 ## Contact
 For queries or collaboration:
 
-📧 Muhammad Baqir – mohdbaqir110@gmail.com
-📧 Rishi Varshney – rishi.varshney100@gmail.com
-📧 Tushar Ranjan – tusharranjan151@mail.com
+- Muhammad Baqir – mohdbaqir110@gmail.com
+- Rishi Varshney – rishi.varshney100@gmail.com
+- Tushar Ranjan – tusharranjan151@mail.com
