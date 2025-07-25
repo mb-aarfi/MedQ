@@ -6,10 +6,10 @@
 
 MedQ is a hospital-based healthcare solution developed as part of the Smart India Hackathon 2024 under Problem Statement ID: SIH1620. It provides a one-stop platform for real-time OPD registration, bed availability, and predictive healthcare logistics — all optimized with priority-based queuing and real-time hospital data.
 
-Team Name: Hack Fuse
-Team ID: 8052
-Theme: MedTech / BioTech / HealthTech
-Category: Software
+- Team Name: Hack Fuse
+- Team ID: 8052
+- Theme: MedTech / BioTech / HealthTech
+- Category: Software
 
 ### Key Features:
 1. **Priority-Based Queuing System** - Prioritizes patients based on their medical condition's urgency.
