@@ -5,7 +5,7 @@
 </p>
 
 ---
-## Demo Video: https://www.youtube.com/watch?v=HKMfKFK1jOk
+## Demo Link: https://www.youtube.com/watch?v=HKMfKFK1jOk
 ---
 
 ## 🚀 Overview
