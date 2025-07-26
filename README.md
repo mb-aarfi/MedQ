@@ -1,114 +1,162 @@
-# MedQ - Revolutionizing Healthcare with Real-Time Data
+<h1 align="center">🏥 MedQ App – Smart Hospital Queue & Bed Management System</h1>
 
-# Demo Link - https://www.youtube.com/watch?v=HKMfKFK1jOk
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/75934e77-b5f0-4968-92bc-cc22e5678bbd" alt="MedQ Banner" width="500" height="200" />
+</p>
 
-## Idea & Approach
 
-MedQ is a hospital-based healthcare solution developed as part of the Smart India Hackathon 2024 under Problem Statement ID: SIH1620. It provides a one-stop platform for real-time OPD registration, bed availability, and predictive healthcare logistics — all optimized with priority-based queuing and real-time hospital data.
+## 🚀 Overview
+**MedQ** is a hospital-based healthcare solution developed as part of the **Smart India Hackathon 2024** under Problem Statement ID: `SIH1620`. It provides a one-stop platform for real-time OPD registration, bed availability, and predictive healthcare logistics — all optimized with priority-based queuing and real-time hospital data.
 
-- Team Name: Hack Fuse
-- Team ID: 8052
-- Theme: MedTech / BioTech / HealthTech
-- Category: Software
+- **Team Name:** Hack Fuse  
+- **Team ID:** 8052  
+- **Theme:** MedTech / BioTech / HealthTech  
+- **Category:** Software  
 
-### Key Features:
-1. **Priority-Based Queuing System** - Prioritizes patients based on their medical condition's urgency.
-2. **Real-Time Bed Availability** - Allows users to see current bed counts and book accordingly.
-3. **User-Centric Filters** - Search by bed count, distance, hospital cost, and more.
+---
 
-## Architecture Diagram
-![Architecture diagram](https://github.com/user-attachments/assets/37999e4a-13f5-4104-aa12-757ee540cc85)
+## 📱 Key Features
 
-## Dependencies
-- **Flutter Framework**: Cross-platform front-end development.
-- **MERN Stack**: Backend development for hospitals' real-time data.
-- **Firebase**: Storage for real-time data.
+- 🔴 **Real-Time Bed Availability**
+- 🏥 **Priority-Based OPD Queuing Model**
+- 🔍 **User-Centric Filters** (e.g. cost, distance, specialty, ratings)
+- 🔔 **Predictive Inventory Alerts** using usage patterns
+- 📊 **Hospital-specific Dynamic Data Integration**
+- 📍 **Smart Search with Google Maps and TomTom APIs**
 
-## Tech Stack
-**Frontend:**
-- HTML5, CSS, React JS
+---
 
-**Backend:**
-- JavaScript, Node JS, Flask, Python, Flutter
+## Demo Video: https://www.youtube.com/watch?v=HKMfKFK1jOk
 
-**Database:**
-- Firebase, Firestore
+---
 
-**Authentication:**
-- Firebase
 
-**UI Design:**
-- Figma, Visily, Whimsical, Lucid
+## 💡 Innovation & Uniqueness
 
-**APIs:**
-- Google Maps API, TomTom API
+- **All-in-One Healthcare Gateway:** Real-time services from bed tracking to OPD registration.
+- **Priority-Aided FCFS Queuing:** Reduces patient wait time through a severity-based queuing model.
+- **Smart Inventory Forecasting:** Alerts for low-stock situations to improve hospital readiness.
+- **Custom Filtered Search:** Hospitals can be selected based on user preferences (distance, specialty, cost, etc.).
 
-## Feasibility Analysis
+---
 
-We conducted a survey across hospitals and gained insights from staff, revealing these crucial statistics:
+## 🧠 Technical Architecture
 
-- **94%** of respondents prefer an app that provides faster OPD registration, reducing inline waiting time.
-- **76%** believe in a priority-based registration system.
-- **82%** support real-time bed and doctor availability information.
+### 🔧 Tech Stack
 
-### Survey Questions:
-1. Will you use an app that minimizes waiting time for OPD registration?
-2. Should OPD slots be registered based on patient priority or FCFS (First-Come-First-Serve)?
-3. Would real-time information on beds and doctors improve your hospital experience?
-4. Have you seen an app providing real-time bed/doctor availability and patient priority slot booking?
+| Layer         | Technologies Used                            |
+|--------------|----------------------------------------------|
+| **Frontend**  | HTML5, CSS, React.js, Flutter (cross-platform) |
+| **Backend**   | Node.js, Flask, Python                       |
+| **Database**  | Firebase, Firestore                         |
+| **Authentication** | Firebase Auth                        |
+| **Design**     | Figma, Visily, Whimsical, Lucid             |
+| **APIs**       | Google Maps API, TomTom API                 |
 
-## Challenges and Solutions
+---
 
-**Challenge**: Understanding the real problems faced by hospitals  
-**Solution**: Hospital visits provided key insights into actual pain points.
+## 🔎 Methodology & Dependencies
 
-**Challenge**: Designing a Queuing Model  
-**Solution**: Integrating priorities with FCFS created an optimal dynamic queuing system.
+- **Frontend:** Built using Flutter for mobile and React.js for web hospital dashboard.
+- **Backend & API:** Node.js and Flask for real-time updates and integration.
+- **Database:** Firebase is used for storing and syncing hospital and patient data.
+- **Priority Queuing Logic:** Combines severity with FCFS to create a dynamic registration flow.
 
-**Challenge**: ML Model Integration  
-**Solution**: Flask provided an effective way to overcome integration issues.
+---
 
-## Viability Analysis
+## ⚙️ Architecture Diagram
 
-### Target Market Size:
-- **Population**: Our app targets 33 million people in Delhi.
-- **Patient Segment**: 50,000 daily OPD registrations in government hospitals.
-- **Hospital Segment**: Targeting 180 hospitals (148 private, 32 government).
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/c40cf23f-f883-4a40-80c8-c403a0cedad2" alt="MedQ Banner" width="500"/>
+</p>
 
-### Revenue Model:
-1. Subscription fees from hospitals.
-2. Advertisements.
-3. **MedCoin**: A reward system providing additional benefits like discounted services.
+---
 
-## Top Selling Points:
-1. **Reduction in Pre-Admit Struggle**: Seamless bed and doctor availability.
-2. **Asset to Life-Saving**: Speedy admission through real-time updates.
-3. **By 2030**, we aim to reduce patient waiting times by 30%.
 
-## Research and References
+## ⚙️ Working Prototype
 
-- **"The Role of Real-Time Data in Healthcare"**  
-Journal: Healthcare Informatics Research  
-[Link](https://link.springer.com/journal/41666)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/4ec6abae-f458-4d9f-9fd9-ecd540ac8a8f" alt="MedQ Banner" width="500"/>
+</p>
 
-- **"Queueing Models for Healthcare Operations"**  
-International Series in Operations Research & Management Science, Volume 184  
-[Link](https://link.springer.com/chapter/10.1007/978-1-4614-5885-2_2)
+---
 
-- **"Predictive Analytics in Hospital Management"**  
-Author: Gopalakrishna Palem  
-[Link](https://www.researchgate.net/publication/236336250_The_Practice_of_Predictive_Analytics_in_Healthcare)
+## 📊 Feasibility & Viability
 
-- **"Impact of Bed Availability on Patient Care"**  
-Source: National Library of Medicine  
-[Link](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1089232/)
+### 📌 Market Potential
+- **Target Region:** Delhi NCR (~33 million population)
+- **Daily OPD Registrations:** 50,000+
+- **Target Hospitals:** 180 (32 Government + 148 Private)
 
-## Working Prototype SSs:
-![Team ID 8052](https://github.com/user-attachments/assets/0d2cd0ed-67b4-4901-9506-9dc75a962999)
+### 💰 Revenue Model
+1. Subscription Fees from Hospitals
+2. Advertisements
+3. **MedCoin** – Digital tokens for discounts and service perks
 
-## Contact
+### 📈 Survey Insights
+- 94% prefer real-time OPD/bed updates
+- 82% support priority-based registration
+- Survey data from hospital staff included in [Survey Folder](https://drive.google.com/drive/folders/1PqXlnBRsGoU-0z6i5_eNh2cEFBbOK47Y?usp=sharing)
+
+---
+
+## 🌍 Impact & Benefits
+
+### For Patients
+- Real-time data = reduced waiting time
+- Easy hospital comparison using user-centric filters
+- Transparent priority-based admission
+
+### For Hospitals
+- Better resource allocation and scheduling
+- Reduced administrative burden
+- Inventory forecasting and improved logistics
+
+### Environmental Benefits
+- Digital records reduce paper waste
+- Optimized travel and reduced carbon emissions
+
+---
+
+## 🏆 Competitive Comparison
+
+| Feature              | MedQ | Practo | MyChart | Qmatic | QueueDr | TeleTracking | Medaware |
+|----------------------|------|--------|---------|--------|---------|---------------|-----------|
+| Real-time Bed Status | ✅   | ❌     | ❌      | ❌     | ❌      | ✅            | ✅        |
+| Priority-Based OPD   | ✅   | ❌     | ❌      | ✅     | ✅      | ❌            | ❌        |
+| Predictive Inventory | ✅   | ❌     | ❌      | ❌     | ❌      | ✅            | ✅        |
+| One-Stop Solution    | ✅   | ✅     | ✅      | ❌     | ❌      | ❌            | ❌        |
+
+---
+
+## 📚 References
+
+1. **The Role of Real-Time Data in Healthcare** – *Healthcare Informatics Research*  
+   [Link](https://link.springer.com/journal/41666)
+
+2. **Queueing Models for Healthcare Operations** – *International Series in Operations Research*  
+   [Link](https://link.springer.com/chapter/10.1007/978-1-4614-5885-2_2)
+
+3. **Predictive Analytics in Hospital Management** – Gopalakrishna Palem  
+   [Link](https://www.researchgate.net/publication/236336250_The_Practice_of_Predictive_Analytics_in_Healthcare)
+
+4. **Impact of Bed Availability on Patient Care** – *National Library of Medicine*  
+   [Link](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1089232/)
+
+5. **Queueing Problems in Emergency Departments** – *Operations Research Forum*  
+   [Link](https://link.springer.com/article/10.1007/s43069-021-00114-8)
+
+---
+
+## 🤝 Acknowledgments
+
+Developed with dedication by **Team Hack Fuse** for **Smart India Hackathon 2024**.
+
+---
+
+## 📩 Contact
+
 For queries or collaboration:
-
-- Muhammad Baqir – mohdbaqir110@gmail.com
-- Rishi Varshney – rishi.varshney100@gmail.com
-- Tushar Ranjan – tusharranjan151@mail.com
+- 📧 Muhammad Baqir – [mohdbaqir110@gmail.com](mailto:mohdbaqir110@gmail.com)
+- 📧 Rishi Varshney – [rishi.varshney100@gmail.com](mailto:rishi.varshney100@gmail.com)  
+- 📧 Tushar Ranjan – [tusharranjan151@mail.com](mailto:tusharranjan151@mail.com)  
