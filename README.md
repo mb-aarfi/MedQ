@@ -4,6 +4,9 @@
   <img src="https://github.com/user-attachments/assets/75934e77-b5f0-4968-92bc-cc22e5678bbd" alt="MedQ Banner" width="500" height="200" />
 </p>
 
+---
+## Demo Video: https://www.youtube.com/watch?v=HKMfKFK1jOk
+---
 
 ## 🚀 Overview
 **MedQ** is a hospital-based healthcare solution developed as part of the **Smart India Hackathon 2024** under Problem Statement ID: `SIH1620`. It provides a one-stop platform for real-time OPD registration, bed availability, and predictive healthcare logistics — all optimized with priority-based queuing and real-time hospital data.
@@ -24,9 +27,6 @@
 - 📊 **Hospital-specific Dynamic Data Integration**
 - 📍 **Smart Search with Google Maps and TomTom APIs**
 
----
-
-## Demo Video: https://www.youtube.com/watch?v=HKMfKFK1jOk
 
 ---
 
